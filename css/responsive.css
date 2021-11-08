@@ -1,0 +1,181 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    
+.wrpper {
+	padding-top: 12px !important;
+}
+    
+    
+.bottom-footer-social a {
+	margin: 13px 0px !important;
+	padding: 6px 7px !important;
+
+}
+    
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+.menu_area .menu_bottom .mainmenu a , .navbar-default .navbar-nav > li > a {
+     border-right:transparent !important;
+}
+    .dropdown-menu > li > a {
+	padding: 11px 20px !important;
+
+}
+    
+.navbar-nav {
+	margin: 6px !important;
+}
+    
+  
+#nav .navbar-default .navbar-nav > li {
+    border-right: none !important; 
+}
+    
+
+/*---------scroll-start--------*/
+    .top_scrool_2 {
+	 margin-left: 0 !important; 
+	
+}
+    
+.bottom_scrool_2 {
+	margin-left: 0 !important;
+}
+/*---------scroll-End--------*/
+    
+    
+    
+/*---------services-section-start--------*/
+
+.service-image img {
+	width: 32% !important;
+}
+    
+.bangladesh-image img {
+	width: 29% !important;
+}
+    
+.services-content {
+	margin-left: 120px !important;
+}
+    
+/*---------services-section-End--------*/
+    
+    
+    
+
+    
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ .bottom-footer-social {
+	 margin-top: 0 !important; 
+	margin-bottom: 30px !important;
+}   
+
+.copy-right {
+    text-align: center !important;
+}   
+    
+.design-developed {
+	text-align: center !important;
+	
+}  
+    
+   /*=======================page-css-start====================*/ 
+.image img {
+	width: 100% !important;
+	
+}
+
+.wrpper {
+	padding-top: 5px !important;
+}
+    
+
+.p-content a {
+	padding: 8px 2px !important;
+	
+}
+
+.projects-table.table-bordered td {
+	font-size: 14px !important;
+}
+    
+
+.n-content a {
+	font-size: 12px !important;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+/*------silder start----------*/
+.home-slide .owl-nav button {
+	top: 37% !important;
+	font-size: 44px !important;
+	
+}
+    
+/*------silder End----------*/
+
+.services-content {
+	margin-left: 165px !important;
+}    
+    
+    
+    
+    
+.design-developed {
+	text-align: center !important;
+	
+}
+ 
+.copy-right {
+	text-align: center !important;
+}
+    
+  /*========================page css start================*/  
+.n-redmore a {
+	font-size: 14px !important;
+}
+    
+    
+    
+
+}
