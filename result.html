@@ -1,0 +1,213 @@
+<html>
+
+<head>
+    <title>SSC Result 2021</title>
+    <link rel="stylesheet" type="text/css" href="css/result.css">
+    <link href="http://fonts.googleapis.com/css?family=Actor" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/result.js"></script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1043.0" data-gr-ext-installed="">
+    <center>
+        <!--<div style="font-size: 20px;width: 598px;margin: 0 auto;text-align: center;color: blue;font-weight: bold;">রেজাল্ট সার্ভার ২: যশোর বোর্ডের বিকল্প সার্ভার থেকে ফলাফল দেখতে ভিজিট করুনঃ <a href="http://result.jessoreboard.gov.bd" style="color:red">result.jessoreboard.gov.bd</a></div>-->
+        <div class="main">
+            <div class="head" id="head">
+                <div class="head_scetion" style="width: 650px; text-align: center; margin: 0px auto;">
+                    <img src="images/jsr.png" style="height: 80px;">
+                    <h1 style="font-size: 20px; margin: 0px;">Board of Intermediate &amp; Secondary Education, Jashore</h1>
+                    <h3 style="border-bottom: 1px dashed #AAAAAA; display: inline-block; font-weight: normal; margin-bottom: 10px;  padding: 0 20px;  text-align: center;">SSC Result 2021</h3>
+                </div>
+            </div>
+            <div class="info">
+                <h3>SSC Result 2021</h3>
+                <table class="tableform" cellpadding="2" cellspacing="5">
+
+                    <tbody>
+                        <tr style="display: none;">
+                            <th>Reg. No. (For Marks)<br><span>According to registration card</span></th>
+                        </tr>
+                        <tr style="display: none;">
+                            <td>
+                                <input type="text" name="regno" id="regno" class="regno regroll" onkeydown="Javascript: event.keyCode == 13 ? checkreg(this.value) : false" onkeyup="checkreg(this.value)">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Roll</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text" name="roll" id="roll" class="roll regroll" onclick="clear_result()" onkeyup="check_lengh(this.value)" maxlength="6" onkeydown="Javascript: event.keyCode == 13 ? find_result() : false">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                <input type="hidden" id="check" class="check">
+                                <input type="button" value="Find" id="find_button" class="submit" onclick="return find_result();">
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="insresult.php" style="color: red; font-weight: bold; font-size: 20px; display: block; margin: 10px 0;" target="_blank">Institute Wise Result Sheet</a>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+        <div class="news" id="show_result">
+            <div id="resutl_sheet">
+                <style type="text/css">
+                    table.table_result {
+                        width: calc(100% - 40px);
+                        margin: 20px;
+                        border-collapse: collapse;
+                    }
+                    
+                    table.table_result td,
+                    table.table_result th {
+                        text-align: center;
+                        border: 1px dashed #aaaaaa;
+                        padding: 0px 5px;
+                    }
+                    
+                    table.table_result tr th,
+                    .subname {
+                        padding: 2px 5px !important;
+                    }
+                    
+                    .subname {
+                        text-align: left !important;
+                    }
+                    
+                    table.table_info {
+                        width: calc(100% - 40px);
+                        margin: 20px;
+                    }
+                    
+                    table.table_info td {
+                        text-align: left;
+                        border-bottom: 1px dashed #aaaaaa;
+                        padding: 2px 5px;
+                    }
+                    
+                    table.table_info th {
+                        text-align: left;
+                        border-bottom: 1px dashed #aaaaaa;
+                        padding: 2px 5px;
+                    }
+                    
+                    @page {
+                        size: auto;
+                        margin: 3mm;
+                    }
+                </style>
+                <table class="table_info">
+                    <tbody>
+                        <tr>
+                            <td style="width: 60px;">Roll No</td>
+                            <td>613076</td>
+                            <td style="width: 115px;">Name</td>
+                            <td>MD.ABU SALEH</td>
+                        </tr>
+                        <tr>
+                            <td>Reg. No</td>
+                            <td></td>
+                            <td>Father's Name</td>
+                            <td>MD.BAZLUR RAHMAN</td>
+                        </tr>
+                        <tr>
+                            <td>Group</td>
+                            <td>SCIENCE</td>
+                            <td>Mother's Name</td>
+                            <td>MST.NURUN NAHAR KHATUN</td>
+                        </tr>
+                        <tr>
+                            <td>Session</td>
+                            <td>2019-20</td>
+                            <td>Passing Year</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>Type</td>
+                            <td>REGULAR</td>
+                            <td>Institute</td>
+                            <td>Samonta Secondary School(116706)</td>
+                        </tr>
+                        <tr>
+                            <td>Result</td>
+                            <td>GPA=4.72</td>
+                            <td>Center</td>
+                            <td>RULI - 507</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3 style="border: medium none; padding: 0; text-align: center; font-weight: normal;">Grade Sheet</h3>
+                <table class="table_result">
+                    <tbody>
+                        <tr>
+                            <th>Subject</th>
+                            <th style="width: 100px;">Grade</th>
+                        </tr>
+                        <tr>
+                            <td class="subname">Bangla</td>
+                            <td>A </td>
+                        </tr>
+                        <tr>
+                            <td class="subname">English</td>
+                            <td>A+</td>
+                        </tr>
+                        <tr>
+                            <td class="subname">Mathematics</td>
+                            <td>B </td>
+                        </tr>
+                        <tr>
+                            <td class="subname">Bangladesh And Global Studies</td>
+                            <td>A-</td>
+                        </tr>
+                        <tr>
+                            <td class="subname">Islam &amp; Moral Education</td>
+                            <td>A </td>
+                        </tr>
+                        <tr>
+                            <td class="subname">Physics</td>
+                            <td>A+</td>
+                        </tr>
+                        <tr>
+                            <td class="subname">Chemistry</td>
+                            <td>A+</td>
+                        </tr>
+                        <tr>
+                            <td class="subname">Higher Mathematics</td>
+                            <td>A+</td>
+                        </tr>
+                        <tr>
+                            <td class="subname">Information &amp; Communication Technology</td>
+                            <td>A+</td>
+                        </tr>
+                        <tr>
+                            <td class="subname">Biology</td>
+                            <td>A+</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+                <div style="overflow: hidden;">
+                    <div style="text-align: center; width: 240px; float: right; margin-right: 50px;">
+                        <img src="images/sign.png" style="height: 36px;"><br> ( Prof. Madhab Chandra Rudra)<br> Controller of Examinations
+                    </div>
+                    <div style="clear: both "></div>
+                </div>
+            </div>
+            <div style="text-align:center;">
+                <input type="button" onclick="print_result()" value="Print" class="submit">
+            </div>
+        </div>
+        <div class="footer">
+            <div style="text-align: center">Copyright © <a target="_blank" href="http://www.jessoreboard.gov.bd/">Jashore Education Board.</a></div>
+        </div>
+    </center>
+
+
+</body>
+
+</html>
