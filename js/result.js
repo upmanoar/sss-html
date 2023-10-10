@@ -60,7 +60,7 @@ function print_result()
     var head=document.getElementById("head").innerHTML;
     var popupWin = window.open('', '_blank', 'width=700,height=1100');
     popupWin.document.open();
-    popupWin.document.write('<html><head><script type="text/javascript" src="print.js"></script></head><body onload="window_print()">' + head + result + '</html>');
+    popupWin.document.write('<html><head><script type="text/javascript" src="js/result.js"></script></head><body onload="window_print()">' + head + result + '</html>');
     popupWin.document.close();				
 }
 
@@ -68,4 +68,9 @@ function clear_result()
 {
     document.getElementById("show_result").innerHTML="";
     document.getElementById("roll").value="";
+}
+function window_print()
+{
+	window.print();
+	window.close();
 }
